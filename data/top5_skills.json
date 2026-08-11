@@ -1,0 +1,1 @@
+{"top5": ["siglip_mmr_diverse", "clip_spatial_cooccur", "clip_count_topk", "siglip_ocr_text_aware", "clip_mmr_diverse"], "baseline": "uniform_128_direct", "candidates": ["siglip_mmr_diverse", "clip_spatial_cooccur", "clip_count_topk", "siglip_ocr_text_aware", "clip_mmr_diverse", "uniform_128_direct"]}

@@ -1,0 +1,21 @@
+{
+  "action_recognition": "siglip_ocr_text_aware",
+  "anomaly_detection": "siglip_mmr_diverse",
+  "appearance": "clip_spatial_cooccur",
+  "causal_reasoning": "clip_spatial_cooccur",
+  "counting": "siglip_mmr_diverse",
+  "emotion_state": "siglip_mmr_diverse",
+  "event_identification": "siglip_mmr_diverse",
+  "fact_verification": "clip_spatial_cooccur",
+  "general_qa": "siglip_mmr_diverse",
+  "narrative_plot": "uniform_128_direct",
+  "negative_qa": "siglip_mmr_diverse",
+  "object_identification": "siglip_mmr_diverse",
+  "ocr_text": "clip_spatial_cooccur",
+  "other": "clip_mmr_diverse",
+  "person_attribute": "siglip_mmr_diverse",
+  "spatial_location": "siglip_mmr_diverse",
+  "temporal_ordering": "clip_spatial_cooccur",
+  "timestamp_specific": "siglip_ocr_text_aware",
+  "yes_no": "siglip_mmr_diverse"
+}
