@@ -110,15 +110,21 @@
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <img src="static/images/teaser.png" alt="AutoSkill pipeline overview: discovery loop, taxonomy-guided
-             rewriting, and category-to-skill routing" style="width:100%;height:auto;">
+        <img src="static/images/teaser.png" alt="AutoSkill method overview, three stages: (1) Execution-Guided
+             Skill Discovery — an agent proposes, implements, evaluates, and refines skills against a 300-sample
+             development set to build a Top-K skill toolbox; (2) Target-Adaptive Skill Routing — target-style
+             domain adaptation and a question taxonomy are used to build an accuracy matrix and a
+             category-to-skill routing table; (3) Category-to-Skill Inference — a test question is assigned a
+             category, its routed skill selects frames, and the frozen backbone answers."
+             style="width:100%;height:auto;">
         <h2 class="subtitle has-text-centered">
           AutoSkill discovers a toolbox of training-free frame-selection skills with LLM agents, then routes
           each question to the skill best suited to its semantic category — using only unlabelled target-side
           question/option text, never target videos or answers.
-          <!-- NOTE: this is the draft pipeline figure (pipeline_draft.png). The paper's current .tex
-               references Figures/method_v3.pdf, which is not present in this working copy — swap in
-               the final figure when available. -->
+          <!-- Rendered from paper/method_v4.pdf. Note: the paper's current AAAI.tex still \includegraphics's
+               Figures/method_v3.pdf (that file isn't present in this working copy) — method_v4.pdf was
+               supplied directly for this page and may be ahead of what's wired into the .tex. Reconcile
+               before treating this as the paper's final figure. -->
         </h2>
       </div>
     </div>
